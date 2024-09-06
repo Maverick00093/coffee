@@ -1,0 +1,876 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: #b13941;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url(IMG/bg\ img.png);
+  background-position: center;
+  background-size: cover;
+}
+.link1 {
+  height: inherit;
+  width: 40%;
+}
+.link1 a {
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 115px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "PT Serif";
+  text-align: right;
+  padding-left: 20%;
+}
+.logo {
+  height: inherit;
+  width: 20%;
+}
+.logo img {
+  padding-top: 5%;
+  padding-left: 40%;
+}
+.link2 {
+  height: inherit;
+  width: 40%;
+}
+.link2 a {
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 115px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "PT Serif";
+  padding-left: 20%;
+}
+.one {
+  height: 1000px;
+  width: 100%;
+  background-image: url(IMG/morning.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.lyr {
+  height: 1000px;
+  width: 100%;
+  background-image: url(IMG/layer.png);
+}
+.txtone {
+  height: 300px;
+  width: 100%;
+  font-size: 100px;
+  letter-spacing: 1px;
+  color: #feedda;
+  font-weight: 400;
+  font-family: "Yeseva One";
+  text-align: center;
+  position: absolute;
+  top: 20%;
+}
+.txtone2 {
+  height: 200px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: #fefefe;
+  font-weight: 400;
+  font-family: "PT Serif";
+  text-align: center;
+  position: absolute;
+  top: 50%;
+}
+/* .btn1 {
+  width: 174px;
+  height: 54px;
+  background-color: #b13941;
+} */
+.btn1 button {
+  width: 174px;
+  height: 54px;
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: #feedda;
+  font-weight: 700;
+  font-family: "PT Serif";
+  text-align: center;
+  background-color: #b13941;
+  position: absolute;
+  top: 65%;
+  left: 45.5%;
+}
+.two {
+  height: 600px;
+  width: 100%;
+  background-color: #b13941;
+  background-image: url(IMG/bg\ img.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.img2 {
+  height: 400px;
+  width: 40%;
+  position: absolute;
+  top: 20%;
+}
+.img2 img {
+  height: 400px;
+  width: 50%;
+  position: absolute;
+  left: 20%;
+}
+.texttwo {
+  height: 600px;
+  width: 60%;
+  position: absolute;
+  left: 40%;
+}
+.ept2 {
+  height: 150px;
+  width: 100%;
+}
+.txttwo1 {
+  height: 80px;
+  width: 100%;
+  font-size: 50px;
+  color: #feedda;
+  font-weight: 400;
+  font-family: "Yeseva One";
+}
+.txttwo2 {
+  height: 120px;
+  width: 100%;
+  font-size: 70px;
+  color: #feedda;
+  font-weight: 400;
+  font-family: "Yeseva One";
+}
+.txttwo3 {
+  width: 100%;
+  height: 120px;
+  font-size: 25px;
+  color: #feedda;
+  font-weight: 400;
+  font-family: "PT Serif";
+}
+.btn2 button {
+  width: 219px;
+  height: 47px;
+  background-color: #feedda;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 29px;
+  color: #b13941;
+  font-weight: 700;
+  font-family: "PT Serif";
+  text-align: center;
+}
+.three {
+  height: 1000px;
+  width: 100%;
+  background-color: #f8eed3;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img3 {
+  height: 1000px;
+  width: 40%;
+}
+.img3 img {
+  height: inherit;
+  width: 100%;
+}
+.ept31 {
+  height: 1000px;
+  width: 15%;
+}
+.textthree {
+  height: 1000px;
+  width: 45%;
+}
+.ept32 {
+  height: 200px;
+  width: 100%;
+}
+.txtthree1 {
+  height: 200px;
+  width: 100%;
+  font-size: 75px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Yeseva One";
+}
+.txtthree2 {
+  width: 100%;
+  height: 300px;
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: #575757;
+  font-weight: 400;
+  font-family: "PT Serif";
+}
+.txtthree3 a {
+  width: 100%;
+  height: 100px;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: red;
+  font-weight: 400;
+  font-family: "PT Serif";
+}
+.four {
+  height: 800px;
+  width: 100%;
+  background-color: #b13941;
+  background-image: url(IMG/bg\ img.png);
+  background-position: center;
+  background-size: cover;
+}
+.ept4 {
+  height: 100px;
+  width: 100%;
+}
+.ttl4 {
+  height: 100px;
+  width: 100%;
+  font-size: 58px;
+  letter-spacing: 1px;
+  color: #f8eed3;
+  font-weight: 400;
+  font-family: "Yeseva One";
+  text-align: center;
+}
+.det4 {
+  height: 150px;
+  width: 100%;
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: #f8eed3;
+  font-weight: 400;
+  font-family: "PT Serif";
+  text-align: center;
+}
+.menu {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.box41 {
+  height: 400px;
+  width: 33%;
+  display: flex;
+}
+.img41 img {
+  height: 400px;
+  width: 100%;
+}
+.des41 {
+  height: 400px;
+  width: 50%;
+  background-color: #fff;
+}
+.ttl41 {
+  height: 100px;
+  width: 100%;
+  font-size: 33px;
+  letter-spacing: 0px;
+  line-height: 70px;
+  color: #010101;
+  font-weight: 600;
+  font-family: "Yeseva One";
+  text-align: center;
+}
+.more41 {
+  height: 200px;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  color: #575757;
+  font-weight: 400;
+  font-family: "PT Serif";
+  text-align: center;
+}
+.btn41 button {
+  width: 50%;
+  height: 40px;
+  background-color: #c55058;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 23px;
+  color: #feedda;
+  font-weight: 700;
+  font-family: "PT Serif";
+  text-align: center;
+  margin-left: 25%;
+}
+.box42 {
+  height: 400px;
+  width: 33%;
+  display: flex;
+}
+.img42 img {
+  height: 400px;
+  width: 100%;
+}
+.des42 {
+  height: 400px;
+  width: 50%;
+  background-color: #fff;
+}
+.ttl42 {
+  height: 100px;
+  width: 100%;
+  font-size: 33px;
+  letter-spacing: 0px;
+  line-height: 70px;
+  color: #010101;
+  font-weight: 600;
+  font-family: "Yeseva One";
+  text-align: center;
+}
+.more42 {
+  height: 200px;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  color: #575757;
+  font-weight: 400;
+  font-family: "PT Serif";
+  text-align: center;
+}
+.btn42 button {
+  width: 50%;
+  height: 40px;
+  background-color: #c55058;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 23px;
+  color: #feedda;
+  font-weight: 700;
+  font-family: "PT Serif";
+  text-align: center;
+  margin-left: 25%;
+}
+.box43 {
+  height: 400px;
+  width: 33%;
+  display: flex;
+}
+.img43 img {
+  height: 400px;
+  width: 100%;
+}
+.des43 {
+  height: 400px;
+  width: 50%;
+  background-color: #fff;
+}
+.ttl43 {
+  height: 100px;
+  width: 100%;
+  font-size: 33px;
+  letter-spacing: 0px;
+  line-height: 70px;
+  color: #010101;
+  font-weight: 600;
+  font-family: "Yeseva One";
+  text-align: center;
+}
+.more43 {
+  height: 200px;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  color: #575757;
+  font-weight: 400;
+  font-family: "PT Serif";
+  text-align: center;
+}
+.btn43 button {
+  width: 50%;
+  height: 40px;
+  background-color: #c55058;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 23px;
+  color: #feedda;
+  font-weight: 700;
+  font-family: "PT Serif";
+  text-align: center;
+  margin-left: 25%;
+}
+.five {
+  height: 1000px;
+  width: 100%;
+  background-color: #f8eed3;
+}
+.ept5 {
+  height: 100px;
+  width: 100%;
+}
+.store {
+  height: 100px;
+  width: 100%;
+  font-size: 58px;
+  letter-spacing: 1px;
+  color: #b13941;
+  font-weight: 600;
+  font-family: "Yeseva One";
+  text-align: center;
+}
+.det5 {
+  height: 150px;
+  width: 100%;
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: #b13941;
+  font-weight: 400;
+  font-family: "PT Serif";
+  text-align: center;
+}
+.storebox {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.box51 {
+  height: 600px;
+  width: 20%;
+  position: relative;
+}
+.img51 img {
+  height: 300px;
+  width: 100%;
+}
+.det51 {
+  height: 300px;
+  width: 100%;
+  background-color: #fff;
+}
+.ttl51 {
+  width: 60%;
+  height: 60px;
+  background-color: #f8eed3;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 42px;
+  color: #b13941;
+  font-weight: 700;
+  font-family: "PT Serif";
+  text-align: center;
+  border: 2px solid #b13941;
+  position: absolute;
+  top: 270px;
+  left: 20%;
+}
+.more51 {
+  height: 180px;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #555555;
+  font-weight: 400;
+  font-family: "PT Serif";
+  text-align: center;
+  position: absolute;
+  top: 350px;
+}
+.btn51 button {
+  width: 50%;
+  height: 50px;
+  background-color: #b13941;
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: #f8eed3;
+  font-weight: 700;
+  font-family: "EB Garamond";
+  text-align: center;
+  position: absolute;
+  top: 530px;
+  left: 25%;
+}
+.box52 {
+  height: 600px;
+  width: 20%;
+  position: relative;
+}
+.img52 img {
+  height: 300px;
+  width: 100%;
+}
+.det52 {
+  height: 300px;
+  width: 100%;
+  background-color: #fff;
+}
+.ttl52 {
+  width: 60%;
+  height: 60px;
+  background-color: #f8eed3;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 42px;
+  color: #b13941;
+  font-weight: 700;
+  font-family: "PT Serif";
+  text-align: center;
+  border: 2px solid #b13941;
+  position: absolute;
+  top: 270px;
+  left: 20%;
+}
+.more52 {
+  height: 180px;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #555555;
+  font-weight: 400;
+  font-family: "PT Serif";
+  text-align: center;
+  position: absolute;
+  top: 350px;
+}
+.btn52 button {
+  width: 50%;
+  height: 50px;
+  background-color: #b13941;
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: #f8eed3;
+  font-weight: 700;
+  font-family: "EB Garamond";
+  text-align: center;
+  position: absolute;
+  top: 530px;
+  left: 25%;
+}
+.box53 {
+  height: 600px;
+  width: 20%;
+  position: relative;
+}
+.img53 img {
+  height: 300px;
+  width: 100%;
+}
+.det53 {
+  height: 300px;
+  width: 100%;
+  background-color: #fff;
+}
+.ttl53 {
+  width: 60%;
+  height: 60px;
+  background-color: #f8eed3;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 42px;
+  color: #b13941;
+  font-weight: 700;
+  font-family: "PT Serif";
+  text-align: center;
+  border: 2px solid #b13941;
+  position: absolute;
+  top: 270px;
+  left: 20%;
+}
+.more53 {
+  height: 180px;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #555555;
+  font-weight: 400;
+  font-family: "PT Serif";
+  text-align: center;
+  position: absolute;
+  top: 350px;
+}
+.btn53 button {
+  width: 50%;
+  height: 50px;
+  background-color: #b13941;
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: #f8eed3;
+  font-weight: 700;
+  font-family: "EB Garamond";
+  text-align: center;
+  position: absolute;
+  top: 530px;
+  left: 25%;
+}
+.six {
+  height: 800px;
+  width: 100%;
+  background-color: #b13941;
+  background-image: url(IMG/bg\ img.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/* .ept6{
+  height: 100px;
+  width: 100%;
+} */
+.vid {
+  height: 600px;
+  width: 50%;
+}
+.vid iframe {
+  height: 600px;
+  width: 100%;
+}
+.txt6 {
+  height: 400px;
+  width: 50%;
+}
+.txt61 {
+  height: 100px;
+  width: 100%;
+  font-size: 58px;
+  letter-spacing: 1px;
+  color: #f8eed3;
+  font-weight: 400;
+  font-family: "Yeseva One";
+  text-align: center;
+}
+.txt62 {
+  height: 200px;
+  width: 100%;
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: #f8eed3;
+  font-weight: 400;
+  font-family: "PT Serif";
+  text-align: center;
+}
+.icon {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.seven {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.map {
+  height: 800px;
+  width: 50%;
+}
+.map iframe {
+  height: 800px;
+  width: 90%;
+}
+.form {
+  height: 700px;
+  width: 50%;
+}
+.fttl {
+  height: 100px;
+  width: 100%;
+  font-size: 58px;
+  letter-spacing: 1px;
+  color: #b13941;
+  font-weight: 600;
+  font-family: "Yeseva One";
+  text-align: center;
+}
+form {
+  height: 500px;
+  width: 100%;
+}
+form input,
+textarea {
+  height: 100px;
+  width: 100%;
+  margin-top: 5%;
+  background-color: rgba(128, 128, 128, 0.133);
+}
+.btn7 button {
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: #f8eed3;
+  font-weight: 700;
+  font-family: "PT Serif";
+  text-align: center;
+  width: 50%;
+  height: 50px;
+  background-color: #b13941;
+  margin-top: 5%;
+}
+.footer {
+  height: 600px;
+  width: 100%;
+  background-color: #d5454e;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flogo {
+  height: 400px;
+  width: 16.6%;
+}
+.flogo img {
+  height: 300px;
+  width: 80%;
+}
+.f1 {
+  height: 300px;
+  width: 16.6%;
+}
+.f1ttl {
+  height: 70px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #ffc2a8;
+  font-weight: 700;
+  font-family: "EB Garamond";
+}
+.f1txt{
+  height: 100px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 0px;
+  font-family: "EB Garamond";
+  color: #f8eed3;
+}
+.f1link a{
+  height: 100px;
+  width: 100%;
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-family: "EB Garamond";
+  color: #f8eed3;
+  text-decoration: none;
+}
+.f2 {
+  height: 300px;
+  width: 16.6%;
+}
+.f2ttl {
+  height: 70px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #ffc2a8;
+  font-weight: 700;
+  font-family: "EB Garamond";
+}
+.f2txt{
+  height: 100px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 0px;
+  font-family: "EB Garamond";
+  color: #f8eed3;
+}
+.f3 {
+  height: 300px;
+  width: 16.6%;
+}
+.f3ttl {
+  height: 70px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #ffc2a8;
+  font-weight: 700;
+  font-family: "EB Garamond";
+}
+.f3txt{
+  height: 100px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 0px;
+  font-family: "EB Garamond";
+  color: #f8eed3;
+}
+.f4 {
+  height: 300px;
+  width: 16.6%;
+}
+.f4ttl {
+  height: 70px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #ffc2a8;
+  font-weight: 700;
+  font-family: "EB Garamond";
+}
+.f4txt{
+  height: 100px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 0px;
+  font-family: "EB Garamond";
+  color: #f8eed3;
+}
+.f5 {
+  height: 300px;
+  width: 16.6%;
+}
+.f5logo{
+  height: 100px;
+  width: 100%;
+}
+.f5logo img{
+  height: 80px;
+  width: 30%;
+}
+.f5txt{
+  height: 100px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 0px;
+  font-family: "EB Garamond";
+  color: #f8eed3;
+}
+.ficon{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
